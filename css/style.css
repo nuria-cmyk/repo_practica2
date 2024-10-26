@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
-
+@import url('./mediaqueries.css');
 /* .kulim-park-regular {
   font-family: "Kulim Park", serif;
   font-weight: 400;
@@ -67,17 +67,17 @@ header {
         align-items: center;
 
         i {
-            color: var(--color03);
+            color: var(--color02);
             font-size: 20px;
 
             span {
                 font-family: var(--fontkrona);
-                color: var(--color02);
+                color: var(--color03);
                 font-size: 12px;
             }
         }
 
-        a {
+        i {
             color: var(--color02);
             text-decoration: none;
 
@@ -102,16 +102,18 @@ main {
     }
 
     #paginacion {
-        font-family: var(--fontkulim);
         text-align: center;
         margin-top: 20px;
 
         button {
+            font-family: var(--fontkulim);
+            font-weight: 700;
             padding: 15px;
             cursor: pointer;
-            background-color: var(--color02);
-            color: white;
+            background-color: var(--color03);
+            color: var(--color02);
             border-radius: 10px;
+            border: none;
         }
     }
 

@@ -2,4 +2,25 @@
 @media(min-width:37.6rem) and (max-width: 48rem) {}
 
 /* grande */
-@media(min-width: 48.062rem) {}
+@media(min-width: 48.062rem) {
+    main {
+        section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 15px;
+
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px #ccc;
+            padding: 20px;
+            width: calc(25% - 15px);
+
+        }
+
+    }
+}
