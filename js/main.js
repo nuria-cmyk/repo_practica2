@@ -6,7 +6,7 @@ function printOnePlant(plant, dom) {
     const figure = document.createElement('figure')
     const imagen = document.createElement('img')
     const h3 = document.createElement('h3')
-    const p = document.createElement('h4')
+    const p = document.createElement('p')
     const h4 = document.createElement('h4')
     const botonanadircarrito = document.createElement('button')
 

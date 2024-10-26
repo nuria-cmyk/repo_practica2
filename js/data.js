@@ -9,7 +9,7 @@ const plantas = [
     },
     {
         id: 2,
-        nombre: "Cactus Echinopsis",
+        nombre: "Cactus",
         descripcion: "Cactus pequeño y resistente",
         precio: 8,
         stock: 25,
@@ -41,7 +41,7 @@ const plantas = [
     },
     {
         id: 6,
-        nombre: "Monstera Deliciosa",
+        nombre: "Monstera",
         descripcion: "Planta tropical de grandes hojas",
         precio: 25,
         stock: 12,
@@ -65,7 +65,7 @@ const plantas = [
     },
     {
         id: 9,
-        nombre: "Bambú de la Suerte",
+        nombre: "Bambú",
         descripcion: "Pequeña planta de interior",
         precio: 5,
         stock: 50,
@@ -169,7 +169,7 @@ const plantas = [
     },
     {
         id: 22,
-        nombre: "Costilla de Adán",
+        nombre: "Adan´s Rib",
         descripcion: "Planta tropical de hojas partidas",
         precio: 25,
         stock: 8,
@@ -194,7 +194,7 @@ const plantas = [
     {
         id: 25,
         nombre: "Pilea",
-        descripcion: "Planta de interior con hojas redondas",
+        descripcion: "Planta de interior",
         precio: 12,
         stock: 18,
         imagen: "https://plus.unsplash.com/premium_photo-1661694315539-5c4bf1002ba3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -234,7 +234,7 @@ const plantas = [
     {
         id: 30,
         nombre: "Pachira",
-        descripcion: "Planta de la suerte con tronco trenzado",
+        descripcion: "Planta de la suerte con tronco",
         precio: 19,
         stock: 15,
         imagen: "https://images.unsplash.com/photo-1633789242668-886f4098ea1c?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -249,7 +249,7 @@ const plantas = [
     },
     {
         id: 32,
-        nombre: "Planta del Dinero",
+        nombre: "Money plant",
         descripcion: "Planta que atrae buena suerte",
         precio: 5,
         stock: 50,
