@@ -1,0 +1,5 @@
+/* mediano */
+@media(min-width:37.6rem) and (max-width: 48rem) {}
+
+/* grande */
+@media(min-width: 48.062rem) {}

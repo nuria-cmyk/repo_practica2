@@ -40,14 +40,15 @@
 
 .container {
     max-width: 1140px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
-/* img {
+img {
     width: 100%;
     height: auto;
     display: block;
-} */
+}
+
 /* header------------------------------------------------------- */
 header {
     display: flex;
@@ -88,3 +89,40 @@ header {
 }
 
 /* main--------------------------------------------------------- */
+
+main {
+    padding-bottom: 150px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+
+    }
+
+    #paginacion {
+        font-family: var(--fontkulim);
+        text-align: center;
+        margin-top: 20px;
+
+        button {
+            padding: 15px;
+            cursor: pointer;
+            background-color: var(--color02);
+            color: white;
+            border-radius: 10px;
+        }
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #ccc;
+        padding: 20px;
+        width: calc(25% - 15px);
+
+    }
+
+}
