@@ -52,7 +52,7 @@ img {
 /* header------------------------------------------------------- */
 header {
     display: flex;
-    background-color: var(--color01);
+    background-color: var(--color03);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -72,8 +72,8 @@ header {
 
             span {
                 font-family: var(--fontkrona);
-                color: var(--color03);
-                font-size: 12px;
+                color: var(--color02);
+                font-size: 16px;
             }
         }
     }
@@ -83,38 +83,66 @@ header {
 
 main {
     padding-bottom: 150px;
+    padding-top: 20px;
+    background-color: var(--color01);
+
 
     section {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 15px;
+        align-items: center;
+        font-family: var(--fontkulim);
 
     }
 
     #paginacion {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
 
         button {
             font-family: var(--fontkulim);
             font-weight: 700;
             padding: 15px;
             cursor: pointer;
-            background-color: var(--color03);
-            color: var(--color02);
-            border-radius: 10px;
+            background-color: var(--color02);
+            color: var(--color03);
+            border-radius: 50px;
             border: none;
+
         }
     }
 
     article {
+        background-color: white;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         border-radius: 10px;
         box-shadow: 1px 1px 5px #ccc;
         padding: 20px;
-        width: calc(25% - 15px);
+        width: calc(50%);
+        align-items: center;
+        text-align: center;
+
+        h3 {
+            padding: 10px;
+            font-family: var(--fontkrona);
+            color: var(--color01);
+        }
+
+        #anadircarrito {
+
+            font-weight: 700;
+            font-size: 16px;
+            padding: 15px;
+            cursor: pointer;
+            background-color: var(--color02);
+            color: var(--color03);
+            border-radius: 50px;
+            border: none;
+            margin-top: 10px;
+        }
 
     }
 
