@@ -1,25 +1,27 @@
+@media(max-width: 37.5rem) {}
+
 /* mediano */
-@media(min-width:37.6rem) and (max-width: 48rem) {}
+@media(min-width: 600px) and (max-width: 768px) {}
 
 /* grande */
-@media(min-width: 48.062rem) {
+@media(min-width: 769px) {
+    #carrito {
+        color: var(--color02);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--color03);
+        }
+    }
+
     main {
         section {
-            display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
-            gap: 15px;
 
         }
 
         article {
-            display: flex;
             flex-direction: column;
-            border-radius: 10px;
-            box-shadow: 1px 1px 5px #ccc;
-            padding: 20px;
-            width: calc(25% - 15px);
-
         }
 
     }

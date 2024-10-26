@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
-@import url('./mediaqueries.css');
+
 /* .kulim-park-regular {
   font-family: "Kulim Park", serif;
   font-weight: 400;
@@ -74,15 +74,6 @@ header {
                 font-family: var(--fontkrona);
                 color: var(--color03);
                 font-size: 12px;
-            }
-        }
-
-        i {
-            color: var(--color02);
-            text-decoration: none;
-
-            &:hover {
-                color: var(--color03);
             }
         }
     }
