@@ -124,12 +124,14 @@ main {
         width: calc(50%);
         align-items: center;
         text-align: center;
+        position: relative;
 
         h3 {
             padding: 10px;
             font-family: var(--fontkrona);
             color: var(--color01);
         }
+
 
         #anadircarrito {
 

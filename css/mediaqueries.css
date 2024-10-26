@@ -24,7 +24,7 @@
         text-decoration: none;
 
         &:hover {
-            color: var(--color03);
+            color: var(--color01);
         }
     }
 
@@ -39,6 +39,11 @@
         article {
             flex-direction: column;
             width: calc(25% - 15px);
+
+            #anadircarrito:hover {
+                background-color: var(--color03);
+                color: var(--color02);
+            }
         }
 
     }
