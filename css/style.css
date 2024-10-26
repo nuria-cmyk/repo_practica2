@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* .kulim-park-regular {
+  font-family: "Kulim Park", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+  
+.kulim-park-bold {
+  font-family: "Kulim Park", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+.krona-one-regular {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/* Variables */
+
+:root {
+    --color01: #808836;
+    --color02: #D10363;
+    --color03: #FF9A00;
+    --color04: #FFBF00;
+
+    --fontkrona: "Krona One", serif;
+    --fontkulim: "Kulim Park", serif;
+}
