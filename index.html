@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 2 - Plantas Franuri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/data.js"></script>
 </head>
@@ -12,11 +15,12 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="container">
+            <div class="nav-container">
                 <nav>
                     <figure id="logo">
-                        <img src="" alt="Franuri">
+                        <img src="./images/Logo_Franuri.png" alt="Franuri">
                     </figure>
+                    
                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
                 </nav>
             </div>
@@ -31,7 +35,7 @@
                         </figure>
                         <h3>Aloe Vera</h3>
                         <p>Planta suculenta medicinal</p>
-                        <h6>Precio: 10€</h6>
+                        <h4>Precio: 10€</h4>
                         <button id="anadircarrito">Añadir al carrito</button>
                     </article>
                 </section>
@@ -43,7 +47,9 @@
         </main>
         <div class="carrito">
             <div class="vistacarrito">
-                <div id="misplantas"></div>
+                <div id="misplantas">
+
+                </div>
                 <div class="cerrar">X</div>
             </div>
         </div>

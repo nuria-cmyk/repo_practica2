@@ -29,3 +29,42 @@
     --fontkrona: "Krona One", serif;
     --fontkulim: "Kulim Park", serif;
 }
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 40px auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-container {
+    background-color: var(--color01);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
+        color: var(--color02);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--color03);
+        }
+    }
+}
