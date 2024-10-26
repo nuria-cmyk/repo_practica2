@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 2 - Plantas Franuria </title>
+    <title>Práctica 2 - Plantas Franuri</title>
+    <link rel="stylesheet" href="./css/style.css">
     <script src="./js/data.js"></script>
 </head>
 
 <body>
-
-
-
-
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <nav>
+                    <figure id="logo">
+                        <img src="" alt="Franuri">
+                    </figure>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section id="plantas" class="flex">
+                    <article>
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Aloe Vera">
+                        </figure>
+                        <h3>Aloe Vera</h3>
+                        <p>Planta suculenta medicinal</p>
+                        <h6>Precio: 10€</h6>
+                        <button id="anadircarrito">Añadir al carrito</button>
+                    </article>
+                </section>
+                <div id="paginacion" class="container">
+                    <button>Anterior</button>
+                    <button>Siguiente</button>
+                </div>
+            </div>
+        </main>
+        <div class="carrito">
+            <div class="vistacarrito">
+                <div id="misplantas"></div>
+                <div class="cerrar">X</div>
+            </div>
+        </div>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 
