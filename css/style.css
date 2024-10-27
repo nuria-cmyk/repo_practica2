@@ -115,7 +115,7 @@ main {
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        box-shadow: 1px 1px 5px #ccc;
+        box-shadow: 1px 1px 5px #454a15;
         padding: 20px;
         width: calc(60%);
         align-items: center;
@@ -163,4 +163,115 @@ main {
         object-fit: cover;
     }
 
+}
+
+.carrito {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    /* opacity: 0; */
+    /* display: none; */
+
+    .vistacarrito {
+        font-family: var(--fontkulim);
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background-color: var(--color01);
+        padding: 10px;
+        position: absolute;
+        border-radius: 20px 0px 0px 0px;
+
+
+        #misplantas {
+
+            article {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            figure {
+                width: 30%;
+                margin: 0;
+                height: auto;
+            }
+
+            img {
+                height: auto;
+                display: block;
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .descripcioncarrito {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h3 {
+                    color: var(--color03);
+                    font-family: var(--fontkrona);
+                }
+
+                h4 {
+                    margin-top: 5px;
+                    font-size: 14px;
+                }
+            }
+
+            #borrararticulo {
+                width: 20px;
+                height: 20px;
+                background-color: var(--color02);
+                color: var(--color03);
+                border-radius: 50%;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                margin-top: 10px;
+            }
+        }
+
+        .subtotal {
+            padding: 20px;
+            text-align: center;
+
+            span {
+                color: var(--color02);
+                font-size: 30px;
+                background-color: var(--color03);
+            }
+        }
+
+        #finalizarcompra {
+            font-weight: 700;
+            font-size: 16px;
+            padding: 15px;
+            background-color: var(--color02);
+            color: var(--color03);
+            border-radius: 50px;
+            border: none;
+            align-items: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .cerrar {
+            color: var(--color02);
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 5px;
+            top: 10px;
+        }
+    }
 }

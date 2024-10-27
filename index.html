@@ -25,66 +25,6 @@
         <main>
             <div class="container">
                 <section id="plantas" class="flex">
-                    <!-- <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Aloe Vera">
-                        </figure>
-                        <h3>Aloe Vera</h3>
-                        <p>Planta suculenta medicinal</p>
-                        <h4>Precio: 10€</h4>
-                        <button id="anadircarrito">Añadir al carrito</button>
-                    </article> -->
                 </section>
                 <div id="paginacion" class="container">
                     <button>ANTERIOR</button>
@@ -100,14 +40,18 @@
                             <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="Aloe Vera">
                         </figure>
-                        <h3>Aloe Vera</h3>
-                        <h4>2 x 10€</h4>
-                        <button id="borrararticulo">X</button>
+                        <div class="descripcioncarrito">
+                            <h3>Aloe Vera</h3>
+                            <h4><span>2</span> x 10€</h4>
+                            <button id="borrararticulo"><i class="fa-solid fa-x"></i></button>
+                        </div>
                     </article>
                 </div>
-                <h3>Subtotal: 20€</h3>
-                <button id="finalizar compra">Finalizar Compra</button>
-                <div class="cerrar">X</div>
+                <div class="subtotal">
+                    <h3>Subtotal: <span>20€</span></h3>
+                </div>
+                <button id="finalizarcompra">Finalizar Compra</button>
+                <div class="cerrar"><i class="fa-solid fa-x"></i></div>
             </div>
         </div>
     </div>
