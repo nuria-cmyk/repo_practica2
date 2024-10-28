@@ -1,5 +1,5 @@
 const seccionPlantas = document.querySelector('#plantas')
-const itemsPerPage = 20;
+const itemsPerPage = 10;
 let currentPage = 1;
 
 function printOnePlant(plant, dom) {
