@@ -51,5 +51,25 @@ function prevPage(list) {
 document.querySelector('#paginacion button:first-child').addEventListener('click', () => prevPage(plantas));
 document.querySelector('#paginacion button:last-child').addEventListener('click', () => nextPage(plantas));
 
+const carrito = document.querySelector('#carrito')
+carrito.addEventListener('click', abrirCarrito)
+const ventanaCarrito = document.querySelector('.carrito')
+
+function abrirCarrito() {
+    ventanaCarrito.style.display = 'flex'
+    ventanaCarrito.style.opacity = 1
+    ventanaCarrito.style.transition = '1s'
+}
+
+const btnCerrar = ventanaCarrito.querySelector('.cerrar')
+btnCerrar.addEventListener('click', cerrarCarrito)
+
+function cerrarCarrito() {
+    ventanaCarrito.style.display = 'none'
+    ventanaCarrito.style.opacity = 0
+    ventanaCarrito.style.transition = '1s'
+}
+
+
 
 printAllPlants(plantas, seccionPlantas)
