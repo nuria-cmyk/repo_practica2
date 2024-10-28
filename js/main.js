@@ -63,7 +63,6 @@ function abrirCarrito() {
 
 const btnCerrar = ventanaCarrito.querySelector('.cerrar')
 btnCerrar.addEventListener('click', cerrarCarrito)
-
 function cerrarCarrito() {
     ventanaCarrito.style.display = 'none'
     ventanaCarrito.style.opacity = 0
