@@ -1,11 +1,11 @@
 const plantas = [
     {
         id: 1,
-        nombre: "Aloe Vera",
-        descripcion: "Planta suculenta medicinal",
+        nombre: "Juanan´s Fruit",
+        descripcion: "Color Tomato",
         precio: 10,
         stock: 15,
-        imagen: "https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        imagen: "https://images.unsplash.com/photo-1517666005606-69dea9b54865?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 2,

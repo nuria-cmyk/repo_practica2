@@ -108,11 +108,11 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: var(--color03);
     text-align: center;
     z-index: 1;
     font-family: var(--fontkrona);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* main--------------------------------------------------------- */
@@ -206,7 +206,7 @@ main {
 }
 
 .carrito {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
