@@ -3,7 +3,7 @@ const itemsPerPage = 10;
 let currentPage = 1;
 const seccionCarrito = document.querySelector('#misplantas')
 
-function printCarrito(plant, dom) {
+function printOnePlantCarrito(plant, dom) {
 
     const article = document.createElement('article')
     const figure = document.createElement('figure')
@@ -12,24 +12,25 @@ function printCarrito(plant, dom) {
     const h3 = document.createElement('h3')
     const h4 = document.createElement('h4')
     const button = document.createElement('button')
-    const i = document.createElement('i')
 
+    img.src = plant.imagen
+    img.alt = plant.nombre
+    div.classList.add('descripcioncarrito')
+    h3.textContent = plant.nombre
+    h4.innerHTML = `<span>${plant.stock}</span> x ${plant.precio}€`
+    button.id = 'borrararticulo'
+    button.innerHTML = `<i class="fa-solid fa-x"></i>`
 
-
-
-    /*     <article>
-            <figure>
-                <img src="https://images.unsplash.com/photo-1632380211596-b96123618ca8?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Aloe Vera">
-            </figure>
-            <div class="descripcioncarrito">
-                <h3>Aloe Vera</h3>
-                <h4><span>2</span> x 10€</h4>
-                <button id="borrararticulo"><i class="fa-solid fa-x"></i></button>
-            </div>
-        </article> */
+    figure.appendChild(img)
+    div.append(h3, h4, button)
+    article.append(figure, div)
+    dom.appendChild(article)
 
 }
+printOnePlantCarrito(plantas[0], seccionCarrito)
+printOnePlantCarrito(plantas[1], seccionCarrito)
+printOnePlantCarrito(plantas[2], seccionCarrito)
+printOnePlantCarrito(plantas[3], seccionCarrito)
 
 function printOnePlant(plant, dom) {
 
