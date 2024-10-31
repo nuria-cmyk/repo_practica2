@@ -3,6 +3,10 @@ const itemsPerPage = 10;
 let currentPage = 1;
 const seccionCarrito = document.querySelector('#misplantas')
 
+function borrarElementoCarrito() {
+
+}
+
 function printOnePlantCarrito(plant, dom) {
 
     const article = document.createElement('article')
@@ -20,6 +24,7 @@ function printOnePlantCarrito(plant, dom) {
     h4.innerHTML = `<span>${plant.stock}</span> x ${plant.precio}€`
     button.id = 'borrararticulo'
     button.innerHTML = `<i class="fa-solid fa-x"></i>`
+    button.addEventListener('click', () => borrarElementoCarrito())
 
     figure.appendChild(img)
     div.append(h3, h4, button)
@@ -27,10 +32,6 @@ function printOnePlantCarrito(plant, dom) {
     dom.appendChild(article)
 
 }
-printOnePlantCarrito(plantas[0], seccionCarrito)
-printOnePlantCarrito(plantas[1], seccionCarrito)
-printOnePlantCarrito(plantas[2], seccionCarrito)
-printOnePlantCarrito(plantas[3], seccionCarrito)
 
 function printOnePlant(plant, dom) {
 
@@ -49,7 +50,7 @@ function printOnePlant(plant, dom) {
     h4.textContent = `Precio: ${plant.precio}€`
     botonanadircarrito.id = 'anadircarrito'
     botonanadircarrito.textContent = 'Añadir al carrito'
-    botonanadircarrito.addEventListener('click', () => printCarrito(plant, dom))
+    botonanadircarrito.addEventListener('click', () => printOnePlantCarrito(plant, seccionCarrito))
 
     figure.appendChild(imagen)
     article.append(figure, h3, p, h4, botonanadircarrito)
