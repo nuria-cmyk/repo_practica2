@@ -1,10 +1,10 @@
 const plantas = [
     {
         id: 1,
-        nombre: "Juanan´s Fruit",
-        descripcion: "Color Tomato",
+        nombre: "Juanan's Fruit",
+        descripcion: "Color: Tomato",
         precio: 10,
-        stock: 15,
+        stock: 6,
         imagen: "https://images.unsplash.com/photo-1517666005606-69dea9b54865?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
@@ -169,7 +169,7 @@ const plantas = [
     },
     {
         id: 22,
-        nombre: "Adan´s Rib",
+        nombre: "Adam's Rib",
         descripcion: "Planta tropical de hojas partidas",
         precio: 25,
         stock: 8,
