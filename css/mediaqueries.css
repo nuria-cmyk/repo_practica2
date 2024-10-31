@@ -22,7 +22,13 @@
             }
 
         }
+    }
 
+    .carrito {
+
+        .vistacarrito {
+            width: 380px;
+        }
     }
 }
 
@@ -72,7 +78,7 @@
         .vistacarrito {
             font-family: var(--fontkulim);
             right: 0;
-            width: 25%;
+            width: 380px;
             height: 100%;
             background-color: var(--color01);
             padding: 10px;
