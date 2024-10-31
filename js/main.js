@@ -32,6 +32,16 @@ function printOnePlantCarrito(plant, dom) {
     dom.appendChild(article)
 
 }
+<<<<<<< HEAD
+=======
+/* printOnePlantCarrito(plantas[4], seccionCarrito)
+printOnePlantCarrito(plantas[6], seccionCarrito)
+printOnePlantCarrito(plantas[2], seccionCarrito)
+printOnePlantCarrito(plantas[3], seccionCarrito)
+printOnePlantCarrito(plantas[0], seccionCarrito)
+printOnePlantCarrito(plantas[2], seccionCarrito)
+printOnePlantCarrito(plantas[6], seccionCarrito) */
+>>>>>>> 8301ddae7cb74bc782fcdbc134625e8e44b446be
 
 function printOnePlant(plant, dom) {
 
@@ -51,6 +61,10 @@ function printOnePlant(plant, dom) {
     botonanadircarrito.id = 'anadircarrito'
     botonanadircarrito.textContent = 'Añadir al carrito'
     botonanadircarrito.addEventListener('click', () => printOnePlantCarrito(plant, seccionCarrito))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8301ddae7cb74bc782fcdbc134625e8e44b446be
 
     figure.appendChild(imagen)
     article.append(figure, h3, p, h4, botonanadircarrito)
