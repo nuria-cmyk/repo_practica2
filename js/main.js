@@ -1,5 +1,5 @@
 const seccionPlantas = document.querySelector('#plantas')
-const itemsPerPage = 10;
+const itemsPerPage = 12;
 let currentPage = 1;
 const seccionCarrito = document.querySelector('#misplantas')
 const carritoItems = {};
@@ -21,7 +21,7 @@ function printOnePlantCarrito(plant, dom) {
         };
 
         const article = document.createElement('article');
-        article.id = `item-${plant.id}`; // Añadir un id único para el artículo en el carrito
+        article.id = `item-${plant.id}`;
         const figure = document.createElement('figure');
         const img = document.createElement('img');
         const div = document.createElement('div');
